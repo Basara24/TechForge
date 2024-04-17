@@ -1,0 +1,158 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+header nav {
+    border-radius: 15px 15px 15px 15px;
+    margin: 105px;
+    background-color:rgb(247, 247, 234) ;
+    float: right;
+}
+
+header nav ul {
+    /* retirar a bolinha */
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+h1{
+    background-color: rgb(247, 247, 234);
+    margin: 100px;
+    border-radius: 15px 15px 15px 15px ;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 5px black;
+}
+#sobre-o-jogo{
+    background-color: rgb(247, 247, 234);
+    text-align: center;
+    margin: 100px;
+    border-radius: 15px 15px 15px 15px ;
+    padding-bottom: 0.1px;
+    box-shadow: 0px 0px 5px 5px black;
+}
+
+body {
+    font-family: Arial, Verdana;
+    font-size: 16px;
+    padding-top: 100px;
+    background-color: rgb(231, 222, 231);
+    text-align: center;
+}
+#sobre-o-jogo h2 {
+    padding-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin: 10px;
+    
+
+}
+#sobre-o-jogo p{
+ line-height: 30px;   
+}
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.grid .coluna{
+    border-radius: 15px;
+    box-shadow: 0  0 5px 5px rgb(16, 16, 23);
+    margin: 70px;
+    background-color: gray;
+}
+
+.grid img{
+    background-color:rgb(215, 242, 255);
+    width: 100%;
+    height: 130px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.grid p{
+    text-align: center;
+
+}
+.ficha ul{
+    list-style: none;
+    margin: 25px;
+}
+
+.ficha li{
+    margin: 10px;
+}
+
+.ficha{
+    margin: 350px;
+    width: 350px;
+    border-radius: 10px 10px 10px 10px ;
+    height: 250px;
+    background-color: gray;
+    margin-top: 20px;
+    box-shadow: 0 0 5px 5px black;
+}
+.qsomos{
+    padding-top: 25px;
+    background-color: rgb(247, 247, 234);
+    margin: 100px;
+    border-radius: 15px 15px 15px 15px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px 5px black;
+}
+.qsomos h2{
+    padding-top: 25px;
+    font-size: 32px;
+    margin: 10px;
+}
+.qsomos p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.jogo{
+    padding-top: 25px;
+    background-color: rgb(247, 247, 234);
+    margin: 100px;
+    border-radius: 15px 15px 15px 15px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px 5px black;
+}
+.contato{
+    padding: 20px;
+    background-color: rgb(247, 247, 234);
+    margin: 100px;
+    border-radius: 15px 15px 15px 15px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px 5px black;
+}
+
+button {
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
